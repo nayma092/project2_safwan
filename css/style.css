@@ -46,10 +46,88 @@ ul {
     margin-bottom: 18px;
 }
 
-   
-    
-
-
-
 /* nav-bar part end */
+
+
+/* banner part start */
+.banner{
+    width: 100%;
+    padding: 220px 0;
+    background-color:#00413D;
+    position: relative;
+    overflow: hidden;
+    
+}
+.banner h1{
+    font-family: "Vollkorn", serif;
+    font-weight: 700;
+    font-size: 100px;
+    color: #FFFFFF;
+    line-height: 110px;
+    position: relative;
+    z-index: 40;
+}
+.banner p{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(255, 255, 255,.5); 
+    width: 670px;
+    line-height: 30px;
+    margin-top: 30px; 
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 40;
+   
+}
+.banner h1 span{
+    display: block;
+}
+
+.banner p span{
+    color: #FFFFFF;
+}
+.banner-button{
+    background-color: #E5745D;
+    width: 180px;
+    height: 64px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+    
+}
+.banner-button::after{
+    position: absolute;
+    width: 170px;
+    height: 54px;
+    border: 1px solid #FFFFFF;
+    top:5px;
+    left: 5px;
+    content: "";
+}
+.banner .overlay{
+    background-image: url(../images/bnnrimg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -50%;
+    transition: .6s;
+    z-index: 20;
+}
+.banner:hover .overlay{
+    right: 0;
+    
+}
+
+/* banner part end */
 
