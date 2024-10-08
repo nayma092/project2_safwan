@@ -131,3 +131,92 @@ ul {
 
 /* banner part end */
 
+/* service part start */
+
+.service{
+    padding-top: 220px;
+    padding-bottom: 120px;
+}
+
+.title h4{
+    font-family: "Vollkorn", serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #E5745D;
+    text-align: center;
+    padding-bottom: 11px;
+    position: relative;  
+}
+.title h4::after{
+    position: absolute;
+    top: 9px;
+    left: 41%;
+    width: 40px;
+    height: 2px;
+    background-color: #E5745D;
+    content: "";
+}
+.title h4::before{
+    position: absolute;
+    top: 6px;
+    left: 44%;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #E5745D;
+    content: "";
+}
+.title h2{
+    font-family: "Vollkorn", serif;
+    font-weight: 600;
+    font-size: 50px;
+    color:#00413D;
+    width: 517px;
+    line-height: 60px; 
+    margin: 0 auto; 
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.service .card{
+    width: 100%!important;
+    border: 0px;
+    padding: 50px 30px;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+}
+.service .card img{
+    width: 20%;
+}
+.service .card .card-body{
+    padding: 0;
+}
+.service .card .card-title{
+    font-family: "Vollkorn", serif;
+    font-weight: 800;
+    font-size: 24px;
+    color:#00413D;
+    padding-top: 26px;
+    padding-bottom: 15px; 
+}
+.service .card .card-text{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#00413D;
+    width: 245px;
+    line-height: 24px;
+}
+.service .card i{
+    color:#00413D;
+    
+}
+.service .card i:hover{
+    color:#E5745D;
+    
+}
+
+
+/* service part end */
+
