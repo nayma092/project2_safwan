@@ -1,14 +1,15 @@
 /* nav-bar part start */
 
 .nav-link {
-    
-  font-family: "Jost", sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  color: #00413D;
-  transition: .4s;
+
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #00413D;
+    transition: .4s;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #E5745D;
 }
 
@@ -17,31 +18,37 @@ ul {
 }
 
 /* common css */
-.nav-button .button-text{
+.nav-button .button-text {
     background-color: #E5745D;
     width: 198px;
     height: 64px;
     font-family: "Jost", sans-serif;
     font-weight: 500;
     font-size: 18px;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     position: relative;
 }
+
+.box {
+    display: flex;
+}
+
 /* common css */
-.nav-button .button-text::after{
+.nav-button .button-text::after {
     position: absolute;
     width: 188px;
     height: 54px;
     border: 1px solid #FFFFFF;
-    top:5px;
+    top: 5px;
     left: 5px;
     content: "";
 }
-.nav-button{
+
+.nav-button {
     margin-top: 18px;
     margin-bottom: 18px;
 }
@@ -50,15 +57,16 @@ ul {
 
 
 /* banner part start */
-.banner{
+.banner {
     width: 100%;
     padding: 220px 0;
-    background-color:#00413D;
+    background-color: #00413D;
     position: relative;
     overflow: hidden;
-    
+
 }
-.banner h1{
+
+.banner h1 {
     font-family: "Vollkorn", serif;
     font-weight: 700;
     font-size: 100px;
@@ -67,51 +75,56 @@ ul {
     position: relative;
     z-index: 40;
 }
-.banner p{
+
+.banner p {
     font-family: "Jost", sans-serif;
     font-weight: 400;
     font-size: 20px;
-    color: rgba(255, 255, 255,.5); 
+    color: rgba(255, 255, 255, .5);
     width: 670px;
     line-height: 30px;
-    margin-top: 30px; 
+    margin-top: 30px;
     margin-bottom: 40px;
     position: relative;
     z-index: 40;
-   
+
 }
-.banner h1 span{
+
+.banner h1 span {
     display: block;
 }
 
-.banner p span{
+.banner p span {
     color: #FFFFFF;
 }
-.banner-button{
+
+.banner-button {
     background-color: #E5745D;
     width: 180px;
     height: 64px;
     font-family: "Jost", sans-serif;
     font-weight: 500;
     font-size: 18px;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     position: relative;
-    
+
 }
-.banner-button::after{
+
+.banner-button::after {
     position: absolute;
     width: 170px;
     height: 54px;
     border: 1px solid #FFFFFF;
-    top:5px;
+    top: 5px;
     left: 5px;
     content: "";
 }
-.banner .overlay{
+
+.banner .overlay {
     background-image: url(../images/bnnrimg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,30 +137,32 @@ ul {
     transition: .6s;
     z-index: 20;
 }
-.banner:hover .overlay{
+
+.banner:hover .overlay {
     right: 0;
-    
+
 }
 
 /* banner part end */
 
 /* service part start */
 
-.service{
+.service {
     padding-top: 220px;
     padding-bottom: 120px;
 }
 
-.title h4{
+.title h4 {
     font-family: "Vollkorn", serif;
     font-weight: 600;
     font-size: 18px;
     color: #E5745D;
     text-align: center;
     padding-bottom: 11px;
-    position: relative;  
+    position: relative;
 }
-.title h4::after{
+
+.title h4::after {
     position: absolute;
     top: 9px;
     left: 41%;
@@ -156,7 +171,8 @@ ul {
     background-color: #E5745D;
     content: "";
 }
-.title h4::before{
+
+.title h4::before {
     position: absolute;
     top: 6px;
     left: 44%;
@@ -166,57 +182,199 @@ ul {
     background-color: #E5745D;
     content: "";
 }
-.title h2{
+
+.title h2 {
     font-family: "Vollkorn", serif;
     font-weight: 600;
     font-size: 50px;
-    color:#00413D;
+    color: #00413D;
     width: 517px;
-    line-height: 60px; 
-    margin: 0 auto; 
+    line-height: 60px;
+    margin: 0 auto;
     text-align: center;
     padding-bottom: 40px;
 }
 
-.service .card{
-    width: 100%!important;
+.service .card {
+    width: 100% !important;
     border: 0px;
     padding: 50px 30px;
-    -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
--moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
 }
-.service .card img{
+
+.service .card img {
     width: 20%;
 }
-.service .card .card-body{
+
+.service .card .card-body {
     padding: 0;
 }
-.service .card .card-title{
+
+.service .card .card-title {
     font-family: "Vollkorn", serif;
     font-weight: 800;
     font-size: 24px;
-    color:#00413D;
+    color: #00413D;
     padding-top: 26px;
-    padding-bottom: 15px; 
+    padding-bottom: 15px;
 }
-.service .card .card-text{
+
+.service .card .card-text {
     font-family: "Jost", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color:#00413D;
+    color: #00413D;
     width: 245px;
     line-height: 24px;
 }
-.service .card i{
-    color:#00413D;
-    
+
+.service .card i {
+    color: #00413D;
+
 }
-.service .card i:hover{
-    color:#E5745D;
-    
+
+.service .card i:hover {
+    color: #E5745D;
+
 }
 
 
 /* service part end */
 
+
+/* about part start */
+
+.about .big-image {
+    width: 370px;
+    height: 480px;
+    background-image: url(../images/abtimg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about .small-image {
+    display: flex;
+
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.about .small-image .image1 {
+    width: 170px;
+    height: 225px;
+    background-image: url(../images/abtimg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about .small-image .image2 {
+    width: 170px;
+    height: 225px;
+    background-image: url(../images/abtimg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about .box {
+    width: 100%;
+    column-gap: 30px;
+}
+
+.about-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-title h4 {
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #E5745D;
+    position: relative;
+    margin-left: 60px;
+
+}
+
+.about-title h4::after {
+    position: absolute;
+    top: 11px;
+    left: -10%;
+    width: 40px;
+    height: 2px;
+    background-color: #E5745D;
+    content: "";
+}
+
+.about-title h4::before {
+    position: absolute;
+    top: 8px;
+    left: -4%;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #E5745D;
+    content: "";
+}
+
+.about-title h2 {
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: #00413D;
+    width: 570px;
+    line-height: 56px;
+}
+
+.about-title p {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00413D;
+    width: 570px;
+    line-height: 26px;
+    margin-top: 20px;
+
+}
+
+.about-title .part2 {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00413D;
+    width: 570px;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+
+.about-button {
+    background-color: #E5745D;
+    width: 198px;
+    height: 64px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.about-button::after {
+    position: absolute;
+    width: 188px;
+    height: 54px;
+    border: 1px solid #FFFFFF;
+    top: 5px;
+    left: 5px;
+    content: "";
+}
+
+
+/* about part end */
