@@ -39,6 +39,10 @@ ul {
 ul{
     list-style: none;
 }
+ul{
+    margin: 0;
+    padding: 0;
+}
 
 /* common css */
 .nav-button .button-text::after {
@@ -205,6 +209,7 @@ ul{
     -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    
 }
 
 .service .card img {
@@ -235,10 +240,9 @@ ul{
 
 .service .card i {
     color: #00413D;
-
+    transition: .4s;
 }
-
-.service .card i:hover {
+.service .card i:hover  {
     color: #E5745D;
 
 }
@@ -583,8 +587,128 @@ margin-bottom: 120px;
 }
 
 
-
-
-
-
 /* project part end */
+
+
+/* portfolio part start */
+
+.port-title h4 {
+    font-family: "Vollkorn", serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #E5745D;
+    text-align: center;
+    padding-bottom: 11px;
+    position: relative;
+}
+
+.port-title h4::after {
+    position: absolute;
+    top: 9px;
+    left: 41%;
+    width: 40px;
+    height: 3px;
+    background-color: #E5745D;
+    content: "";
+}
+
+.port-title h4::before {
+    position: absolute;
+    top: 7px;
+    left: 44%;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #E5745D;
+    content: "";
+}
+
+.port-title h2 {
+    font-family: "Vollkorn", serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #00413D;
+    width: 517px;
+    line-height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.portfolio ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #00413D;
+    column-gap: 35px;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    
+}
+.portfolio ul li{
+    border-bottom:3px solid #FFFFFF;
+    border-bottom-width: 100%;
+    transition: .5s;
+}
+.portfolio ul li:hover {
+    border-bottom:3px solid  #E5745D;
+    cursor: pointer;
+}
+.portfolio .card{
+    width:100% !important ;
+    background-color: #C4C4C4;
+    position: relative;
+    transition: .5s;
+}
+.portfolio .card-body{
+    margin-top: 420px;
+    background-color: #00413D;
+}
+.portfolio .card-title {
+    font-family: "Vollkorn", serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.portfolio .card-text {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255,.8);
+}
+.portfolio .port-icon{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    opacity: 0;
+    transition: .5s;
+}
+.portfolio .port-icon i{
+    color: #E5745D;
+    font-size: 25px;
+}
+.portfolio .card:hover .port-icon{
+    opacity: 1;
+}
+.portfolio .card:hover{
+    background-color:#487573;
+}
+
+
+
+
+    
+
+
+
+/* portfolio part end */
